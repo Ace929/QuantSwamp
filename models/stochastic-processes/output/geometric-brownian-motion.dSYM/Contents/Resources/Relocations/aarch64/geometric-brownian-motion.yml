@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/joshuastevens/Desktop/QuantSwamp/models/stochastic-processes/output/geometric-brownian-motion'
+relocations:     []
+...
