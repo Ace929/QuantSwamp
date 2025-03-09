@@ -1,10 +1,8 @@
 #include <iostream>
-#include <Eigen/Dense>
 #include <vector>
 #include <cmath>
 #include <random>
 
-using namespace Eigen;
 using namespace std;
 
 // Generate synthetic return data

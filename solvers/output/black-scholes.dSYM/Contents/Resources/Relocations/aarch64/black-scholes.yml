@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/joshuastevens/Desktop/QuantSwamp/solvers/output/black-scholes'
+relocations:     []
+...

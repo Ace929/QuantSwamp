@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/joshuastevens/Desktop/QuantSwamp/models/garch_models/output/c_garch'
+relocations:     []
+...
