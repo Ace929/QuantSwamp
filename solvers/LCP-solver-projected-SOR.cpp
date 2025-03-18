@@ -3,7 +3,7 @@
 #include <algorithm>
 
 void projectedSOR(std::vector<double>& V, const std::vector<double>& payoff, 
-                  const std::vector<std::vector<double>>& A, double tol=1e-6, int maxIter=1000) {
+                  const std::vector<std::vector<double> >& A, double tol=1e-6, int maxIter=1000) {
     int n = V.size();
     double omega = 1.2; // Relaxation parameter
 
@@ -27,7 +27,7 @@ int main() {
     // Example: Solve LCP for American option (simplified system)
     int n = 100;
     std::vector<double> V(n, 1.0), payoff(n);
-    std::vector<std::vector<double>> A(n, std::vector<double>(n, 0.0));
+    std::vector<std::vector<double> > A(n, std::vector<double>(n, 0.0));
 
     // Define A (e.g., tridiagonal matrix from PDE discretization)
     for (int i = 0; i < n; ++i) {
