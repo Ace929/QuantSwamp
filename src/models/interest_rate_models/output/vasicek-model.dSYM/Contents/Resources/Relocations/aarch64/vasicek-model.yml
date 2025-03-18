@@ -1,5 +1,5 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/joshuastevens/Desktop/QuantSwamp/models/interest_rate_models/output/vasicek-model'
+binary-path:     '/Users/joshuastevens/Desktop/QuantSwamp/src/models/interest_rate_models/output/vasicek-model'
 relocations:     []
 ...
