@@ -11,3 +11,5 @@ foreach(SOURCE ${SOURCES})
     get_filename_component(EXEC_NAME ${SOURCE} NAME_WE)
     add_executable(${EXEC_NAME} ${SOURCE})
 endforeach()
+
+# g++ -I eigen-3.4.0 -o build/dcc_garch src/models/garch_models/dcc_garch.cpp
