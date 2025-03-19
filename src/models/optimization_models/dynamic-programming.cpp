@@ -6,7 +6,7 @@
 
 using namespace std;
 
-// Parameters
+// params
 const int T = 5;  // Time periods
 const int S_max = 10; // Maximum inventory
 const int X_max = 5;  // Max order size
@@ -27,8 +27,8 @@ double cost(int s, int x, int d) {
 }
 
 // DP Table (state x time)
-vector<vector<double>> V(S_max + 1, vector<double>(T + 1, numeric_limits<double>::infinity()));
-vector<vector<int>> policy(S_max + 1, vector<int>(T, 0)); // Stores optimal order decisions
+vector<vector<double> > V(S_max + 1, vector<double>(T + 1, numeric_limits<double>::infinity()));
+vector<vector<int> > policy(S_max + 1, vector<int>(T, 0)); // Stores optimal order decisions
 
 void solveDP() {
     // Base Case: Final period cost is zero
